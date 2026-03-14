@@ -1,0 +1,21 @@
+-- Exemple minimal pour Saved Games\DCS.server\Config\serverSettings.lua
+-- Ce fichier est fourni comme point de départ uniquement.
+-- Ajuste les chemins des missions selon ton environnement.
+
+cfg = 
+{
+    ["port"] = 10308,
+    ["name"] = "DCS Server - Powered by AMP",
+    ["description"] = "DCS Dedicated Server launched by AMP",
+    ["password"] = "",
+    ["maxPlayers"] = 16,
+    ["listStartIndex"] = 1,
+    ["missionList"] = 
+    {
+        [1] = "C:\\Users\\<AMP_USER>\\Saved Games\\DCS.server\\Missions\\example.miz",
+    },
+    ["advanced"] = 
+    {
+        ["resume_mode"] = 0,
+    },
+}

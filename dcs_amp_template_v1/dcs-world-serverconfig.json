@@ -1,0 +1,58 @@
+[
+  {
+    "DisplayName": "Saved Games write directory name",
+    "Category": "DCS World Dedicated Server:stadia_controller",
+    "Subcategory": "Startup:dns:1",
+    "Description": "Folder name passed to DCS_server.exe with -w. DCS then uses Saved Games\\<value>.",
+    "Keywords": "saved games,writedir,profile,instance",
+    "FieldName": "WriteDirName",
+    "InputType": "text",
+    "IsFlagArgument": false,
+    "IncludeInCommandLine": false,
+    "DefaultValue": "DCS.server",
+    "Placeholder": "DCS.server",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Additional startup arguments",
+    "Category": "DCS World Dedicated Server:stadia_controller",
+    "Subcategory": "Startup:dns:1",
+    "Description": "Optional extra flags appended after -w. Leave blank for the first test.",
+    "Keywords": "startup,args,arguments,custom",
+    "FieldName": "CustomStartupArgs",
+    "InputType": "text",
+    "IsFlagArgument": false,
+    "IncludeInCommandLine": false,
+    "DefaultValue": "",
+    "Placeholder": "",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Primary DCS game port",
+    "Category": "DCS World Dedicated Server:stadia_controller",
+    "Subcategory": "Ports:dns:1",
+    "Description": "Reference only in this draft. Change the actual server port in Config\\serverSettings.lua or via the DCS Web GUI.",
+    "Keywords": "port,dcs,game",
+    "FieldName": "$GamePort",
+    "InputType": "number",
+    "IsFlagArgument": false,
+    "IncludeInCommandLine": false,
+    "DefaultValue": "10308",
+    "Hidden": true,
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Web GUI port",
+    "Category": "DCS World Dedicated Server:stadia_controller",
+    "Subcategory": "Ports:dns:1",
+    "Description": "Reference only in this draft. Change the actual web GUI port in Config\\autoexec.cfg.",
+    "Keywords": "port,webgui,web,gui",
+    "FieldName": "$WebGuiPort",
+    "InputType": "number",
+    "IsFlagArgument": false,
+    "IncludeInCommandLine": false,
+    "DefaultValue": "8088",
+    "Hidden": true,
+    "EnumValues": {}
+  }
+]

@@ -18,6 +18,6 @@
     "Port": 8088,
     "Ref": "WebGuiPort",
     "Name": "Web GUI Port",
-    "Description": "DCS Web GUI / remote web control"
+    "Description": "DCS remote web control"
   }
 ]

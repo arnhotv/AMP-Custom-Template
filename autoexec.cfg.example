@@ -1,4 +1,0 @@
--- Exemple minimal pour Saved Games\DCS.server\Config\autoexec.cfg
--- Adapte surtout webgui_port si tu ne veux pas garder 8088.
-
-webgui_port = 8088

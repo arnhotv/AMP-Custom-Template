@@ -14,13 +14,10 @@
     "SkipOnFailure": false
   },
   {
-    "UpdateStageName": "Download DCS modular installer",
-    "UpdateSourcePlatform": "Windows",
-    "UpdateSource": "FetchURL",
-    "UpdateSourceData": "https://www.digitalcombatsimulator.com/upload/iblock/e0e/anj9iu7zs26ikw81hj18obkxmyhqx2be/DCS_World_Server_modular.exe",
-    "UpdateSourceArgs": "DCS_World_Server_modular.exe",
-    "UpdateSourceTarget": "{{$FullBaseDir}}_manual_steps",
-    "OverwriteExistingFiles": true,
+    "UpdateStageName": "Create generated config directory",
+    "UpdateSourcePlatform": "All",
+    "UpdateSource": "CreateDirectory",
+    "UpdateSourceArgs": "{{$FullBaseDir}}_amp_generated",
     "SkipOnFailure": false
   }
 ]
